@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Geospatial / hyperspectral data - do not upload
+*.dat
+*.img
+*.hdr
+*.tif
+*.tiff
+*.vrt
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sli
+*.bil
+*.bsq
+*.bip
+
+# Tabular outputs / derived products
+*.xlsx
+*.xls
+*.csv
+*.json
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Archives / temporary
+*.zip
+*.tar
+*.gz
+*.tmp
+*.bak
+*~
+
+# Project output folders
+outputs/
+results/
+figures/
+data/
+raw_data/
+derived_data/
+
+# Keep final reproducibility manifest
+!FINAL_SHA256_MANIFEST.csv

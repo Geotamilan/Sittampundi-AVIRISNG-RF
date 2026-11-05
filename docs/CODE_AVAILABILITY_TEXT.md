@@ -1,0 +1,3 @@
+# Suggested code availability statement
+
+The Python scripts used for AVIRIS-NG preprocessing, spectral dimensionality analysis, Random Forest probability mapping, field-site grouped validation, endmember/absorption analysis, local ASD spectral comparison, spectral redundancy testing, hierarchical grouping, and uncertainty-aware interpretation are available in the public code repository associated with this study. Raw AVIRIS-NG imagery and source field/laboratory datasets remain subject to the access conditions of their original providers. The repository does not redistribute restricted source data.

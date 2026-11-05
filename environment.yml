@@ -1,0 +1,17 @@
+name: aviris-sittampundi
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - rasterio
+  - geopandas
+  - shapely
+  - pyproj
+  - spectral
+  - openpyxl
+  - pip

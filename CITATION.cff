@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Sittampundi AVIRIS-NG uncertainty-aware hyperspectral and Random Forest analysis code"
+message: "If you use this code, please cite the associated manuscript and this repository."
+type: software
+authors:
+  - family-names: Tamilarasan
+    given-names: K.
+version: 1.0.0
+date-released: 2026-11-05
