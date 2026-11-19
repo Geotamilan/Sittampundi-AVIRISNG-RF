@@ -8,7 +8,9 @@ dependencies:
   - scipy
   - matplotlib
   - scikit-learn
+  - scikit-image
   - rasterio
+  - affine
   - geopandas
   - shapely
   - pyproj

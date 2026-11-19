@@ -36,3 +36,32 @@ AVIRIS-NG data are subject to the access conditions of the original data provide
 ## Citation
 
 Please cite the associated manuscript and this repository when using the workflow.
+
+## Quick start
+
+Create the Conda environment:
+
+    conda env create -f environment.yml
+    conda activate aviris-sittampundi
+
+For analyses requiring the original project data, define the project root:
+
+    export SAC_AVIRIS_ROOT="/path/to/AVIRIS_NG_project"
+
+For analyses requiring the local ASD spectral library:
+
+    export SAC_ASD_ROOT="/path/to/SAC_ASD_spectra"
+
+Example validation run:
+
+    python scripts/06_grouping_validation_synthesis/step16a_official_rf_accuracy_assessment.py
+
+The official field-site grouped validation uses 43 field sites and reproduces approximately:
+
+- Overall accuracy: 0.604651
+- Balanced accuracy: 0.574048
+- Cohen's kappa: 0.496903
+- Macro F1: 0.589032
+- Weighted F1: 0.616619
+
+Raw AVIRIS-NG imagery and field/laboratory source datasets are not redistributed in this repository and must be obtained separately under the applicable access conditions.
